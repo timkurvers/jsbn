@@ -1,0 +1,35 @@
+{
+  "name": "jsbn",
+  "version": "1.4.0",
+  "description": "Modular, linted package of Tom Wu's JavaScript implementation of arbitrary-precision integer arithmetic",
+  "main": "lib/index.js",
+  "files": [
+    "dist",
+    "lib",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "repository": "timkurvers/jsbn",
+  "author": "Tim Kurvers <tim@moonsphere.net>",
+  "license": "BSD",
+  "keywords": [],
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "coffee-script": "^1.7.1",
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-browserify": "^0.5.0",
+    "gulp-header": "^1.1.1",
+    "gulp-jshint": "^1.8.6",
+    "gulp-mocha": "1.0.0",
+    "gulp-plumber": "^0.6.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-uglify": "^1.0.0",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
+  }
+}
