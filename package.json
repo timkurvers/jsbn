@@ -1,7 +1,7 @@
 {
   "name": "jsbn",
   "version": "1.4.0",
-  "description": "Modular, linted package of Tom Wu's JavaScript implementation of arbitrary-precision integer arithmetic",
+  "description": "Modular package of Tom Wu's JavaScript implementation of arbitrary-precision integer arithmetic",
   "main": "lib/index.js",
   "files": [
     "dist",
