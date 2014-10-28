@@ -14,7 +14,7 @@ describe('Base64', function() {
   });
 
   it('can be converted to byte-array', function() {
-    expect(base64.toByteArray('SlNCTg==')).to.eq([74, 83, 66, 78]);
+    expect(base64.toByteArray('SlNCTg==')).to.deep.eq([74, 83, 66, 78]);
   });
 
 });
