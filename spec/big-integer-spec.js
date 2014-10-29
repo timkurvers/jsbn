@@ -1,3 +1,5 @@
+/* jshint expr: true */
+
 helper = require('./spec-helper');
 expect = helper.expect;
 
