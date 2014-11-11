@@ -1,7 +1,7 @@
 browserify = require('gulp-browserify')
 clean      = require('gulp-rimraf')
 gulp       = require('gulp')
-# header     = require('./header')
+header     = require('./header')
 jshint     = require('gulp-jshint')
 mocha      = require('gulp-mocha')
 pkg        = require('./package.json')
@@ -11,9 +11,7 @@ uglify     = require('gulp-uglify')
 
 gulp.task 'clean', ->
   gulp.src([
-    'dist/**/*',
-    'lib/**/*',
-    'spec/**/*'
+    'dist/**/*'
   ]).pipe clean()
 
 gulp.task 'lint', ->
@@ -27,16 +25,16 @@ gulp.task 'spec', ->
       .pipe plumber()
       .pipe mocha(bail: true)
 
-# gulp.task 'release', gulp.series 'clean', ->
-#   gulp.src 'lib/index.js'
-#       .pipe browserify(standalone: 'JSBN')
-#       .pipe rename("#{pkg.name}.js")
-#       .pipe header(pkg)
-#       .pipe gulp.dest('dist')
-#       .pipe uglify()
-#       .pipe header(pkg)
-#       .pipe rename("#{pkg.name}.min.js")
-#       .pipe gulp.dest('dist')
+gulp.task 'release', gulp.series 'clean', ->
+  gulp.src 'lib/index.js'
+      .pipe browserify(standalone: 'JSBN')
+      .pipe rename("#{pkg.name}.js")
+      .pipe header(pkg)
+      .pipe gulp.dest('dist')
+      .pipe uglify()
+      .pipe header(pkg)
+      .pipe rename("#{pkg.name}.min.js")
+      .pipe gulp.dest('dist')
 
 gulp.task 'watch', ->
   gulp.watch ['lib/**/*.js', 'spec/**/*.js'], gulp.series(
