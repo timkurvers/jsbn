@@ -20,6 +20,11 @@ Licensed under the **BSD** license, see LICENSE for more information.
 * Packed and minified distributions
 
 
+## Installation
+
+Documentation to follow shortly.
+
+
 ## Usage & API
 
 Documentation to follow shortly.
