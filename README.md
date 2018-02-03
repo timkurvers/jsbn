@@ -19,11 +19,9 @@ Licensed under the **BSD** license, see LICENSE for more information.
 * JSHint compliance
 * Packed and minified distributions
 
-
 ## Installation
 
 Documentation to follow shortly.
-
 
 ## Usage & API
 
