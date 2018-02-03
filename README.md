@@ -7,8 +7,7 @@
 
 Modular package of [Tom Wu's JavaScript implementation of arbitrary-precision integer arithmetic](http://www-cs-students.stanford.edu/~tjw/jsbn/).
 
-Licensed under the **BSD** license, see LICENSE for more information.
-
+Licensed under the [**BSD** license](LICENSE.md).
 
 ## Features
 
