@@ -34,5 +34,5 @@ This software is covered under the following copyright:
 
 Address all questions regarding this license to:
 
->  Tom Wu
+>  Tom Wu  
 >  tjw@cs.Stanford.EDU
