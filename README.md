@@ -4,6 +4,7 @@
 [![Build Status](https://img.shields.io/travis/timkurvers/jsbn.svg?style=flat)](https://travis-ci.org/timkurvers/jsbn)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/timkurvers/jsbn.svg)](https://codeclimate.com/github/timkurvers/jsbn)
 [![Test Coverage](https://img.shields.io/codeclimate/coverage/timkurvers/jsbn.svg)](https://codeclimate.com/github/timkurvers/jsbn)
+[![Known Vulnerabilities](https://snyk.io/test/github/timkurvers/jsbn/badge.svg)](https://snyk.io/test/github/timkurvers/jsbn)
 
 Modular package of [Tom Wu's JavaScript implementation of arbitrary-precision integer arithmetic](http://www-cs-students.stanford.edu/~tjw/jsbn/).
 
