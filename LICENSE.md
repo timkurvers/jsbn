@@ -1,6 +1,6 @@
-# License
+BSD License
 
-Licensed under the **BSD** license
+This software is covered under the following copyright:
 
 > Copyright (c) 2003-2005  Tom Wu
 > All Rights Reserved.
@@ -34,5 +34,5 @@ Licensed under the **BSD** license
 
 Address all questions regarding this license to:
 
->  Tom Wu
+>  Tom Wu  
 >  tjw@cs.Stanford.EDU
