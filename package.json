@@ -9,7 +9,7 @@
     "LICENSE.md"
   ],
   "scripts": {
-    "test": "mocha spec"
+    "test": "istanbul test ./node_modules/mocha/bin/_mocha -- spec"
   },
   "repository": "timkurvers/jsbn",
   "author": "Tim Kurvers <tim@moonsphere.net>",
@@ -27,6 +27,7 @@
     "gulp-rename": "^1.2.0",
     "gulp-rimraf": "^0.1.0",
     "gulp-uglify": "^1.0.0",
+    "istanbul": "^0.4.5",
     "jshint-stylish": "^1.0.0",
     "mocha": "^1.21.4",
     "sinon": "^1.10.3",
